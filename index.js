@@ -17,7 +17,7 @@ exports.getDir = ()=> {
 
 const getDim = (Name)=> {
   console.log(Name);
-  console.log(process.cwd);
+  console.log(process.cwd());
   return;
 }
 
