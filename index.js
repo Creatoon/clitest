@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 //const fs = require('fs');
 //const archiver = require('archiver');
 
@@ -12,3 +14,12 @@ exports.getName = () => {
 exports.getDir = ()=> {
   return process.cwd();
 }
+
+const getDim = (Name)=> {
+  console.log(Name);
+  console.log(process.cwd);
+  return;
+}
+
+getDim("Raj Bhai");
+

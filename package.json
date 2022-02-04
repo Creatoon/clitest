@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node index.js"
   },
+  "bin": {
+    "tell-my-path" : "./index.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
