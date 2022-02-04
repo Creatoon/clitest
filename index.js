@@ -1,25 +1,10 @@
 #!/usr/bin/env node
 
-//const fs = require('fs');
-//const archiver = require('archiver');
+const {basename} = require('path');
 
-exports.getPath = () => {
-  return __dirname; 
-}
-
-exports.getName = () => {
-  return __filename;
-}
-
-exports.getDir = ()=> {
-  return process.cwd();
-}
-
-const getDim = (Name)=> {
-  console.log(Name);
+const dir = ()=> {
   console.log(process.cwd());
-  return;
+  console.log(basename(process.cwd()));
 }
 
-getDim("Raj Bhai");
-
+dir();

@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "bin": {
-    "tell-my-path" : "./index.js"
+    "tell-my-path-bruh" : "./index.js"
   },
   "author": "",
   "license": "ISC",
