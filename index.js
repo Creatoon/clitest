@@ -1,4 +1,10 @@
 //const fs = require('fs');
 //const archiver = require('archiver');
 
-console.log(__dirname);
+exports.getPath = () => {
+  return __dirname; 
+}
+
+exports.getName = () => {
+  return __filename;
+}
