@@ -8,3 +8,7 @@ exports.getPath = () => {
 exports.getName = () => {
   return __filename;
 }
+
+exports.getDir = ()=> {
+  return process.cwd();
+}
